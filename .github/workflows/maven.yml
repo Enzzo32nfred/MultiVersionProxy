@@ -30,7 +30,7 @@ jobs:
         mkdir artifact
         cp target/*.jar artifact
     - name: Archive artifacts
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v3
       with:
         name: artifacts
         path: artifact
